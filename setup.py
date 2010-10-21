@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1.1'
+version = '0.9'
 
 setup(name='mobile.sniffer',
       version=version,
-      description="Generic Python framework for mobile user agent detection",
+      description="Mobile browser feature detection using multiple backends",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[

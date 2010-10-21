@@ -1,7 +1,9 @@
+.. contents ::
+
 Introduction
 ------------
 
-``mobile.sniffer`` is Python framework for abstracting mobile handset detection and feature database access.
+``mobile.sniffer`` is Python framework for abstracting mobile browser detection and feature database access.
 
 When rendering web pages for mobile phones one must deal with varying handset features: 
 different screen sizes and shapes, different supported file formats, different sets of web browser features. 
@@ -58,12 +60,14 @@ Installation
 ------------
 
 ``mobile.sniffer`` is distributed as Python egg in PyPi repository.
-The usual method to install Python eggs is easy_install command.
 
-Simple (Unix version)::
+You can install it using standard Python egg installation methods
 
-	sudo easy_install mobile.sniffer
+* easy_install
 
+* pip
+
+* buildout
 
 Dependencies
 ============
@@ -89,7 +93,7 @@ There is no single standard to name properties queried from the handset database
 For legacy reasons, we use DeviceAtlas database column names (keys)
 and then map them to database-dependent keys. 
 
-Detection and redirect example
+Redirection example
 ====================================
 
 ``detect_mobile_browser(user_agent)`` will return True of False
@@ -233,32 +237,34 @@ Instead of manually download and set up bunch of files each time
 you deploy your code on a new server, just make call to one magical Python function which 
 will take care of all of this for you.
 
-Source code
-------------
+Source code and issue tracking
+-----------------------------------
 
-Source code is available via Google Code.
+The project is hosted at `Google Code project repository <http://code.google.com/p/plonegomobile>`_.
 
-* http://code.google.com/p/mobilesniffer/source/browse/#svn/trunk/mobile.sniffer
+Commercial support and development
+-----------------------------------
 
-Beta software
--------------
+This package is licenced under open source GPL 2 license.
 
-This software is still in much development and aimed for advanced Python developers only.
+`Commercial CMS and mobile development support options <http://webandmobile.mfabrik.com/services>`_
+are available from Web and Mobiel web site.
 
+Our top class Python developers are ready to help you with 
+any software development needs.
+  
 Author
 ------
 
 `mFabrik Research Oy <mailto:info@mfabrik.com>`_ - Python and Plone professionals for hire.
+
+* `mFabrik Web & Mobile - multichannel CMS made easy <http://webandmobile.mfabrik.com>`_ 
 
 * `mFabrik web site <http://mfabrik.com>`_ 
 
 * `mFabrik mobile site <http://mfabrik.mobi>`_ 
 
 * `Blog <http://blog.mfabrik.com>`_
-
-* `About Plone CMS <http://mfabrik.com/technology/technologies/content-management-cms/plone>`_ 
-
-
 
 
 
