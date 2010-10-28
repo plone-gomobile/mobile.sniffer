@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.9.1'
+version = '0.9.2'
 
 setup(name='mobile.sniffer',
       version=version,
@@ -23,7 +23,7 @@ setup(name='mobile.sniffer',
       install_requires=[
           # -*- Extra requirements: -*-
           'setuptools',
-          'python-Levehstein'
+          'python-Leveshtein'
       ],
       entry_points="""
       # -*- Entry points: -*-

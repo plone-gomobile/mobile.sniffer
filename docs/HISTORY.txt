@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.9.2
+-----
+
+* It's spellt Leveshtein [miohtama]
+
+
 0.9.1
 -----
 
