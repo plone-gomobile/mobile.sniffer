@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.9.3
+-----
+
+* It's spellt LeveNshtein - why this guy would have just be called John Doe [miohtama]
+
+
 0.9.2
 -----
 
