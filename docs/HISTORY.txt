@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.9.1
+-----
+
+* Depend on Levehstein [miohtama]
+
+
 0.9
 -----
 
