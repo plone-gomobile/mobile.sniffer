@@ -2,10 +2,12 @@
 #
 # Unpack and update pywurfl database
 
+wget http://downloads.sourceforge.net/project/wurfl/WURFL/latest/wurfl-latest.zip
 
-gunzip wurfl-latest.xml.gz
-../../../../../bin/zopepy  wurfl2python.py  wurfl-latest.xml 
+unzip wurfl-latest.zip
+../../../../../bin/zopepy  wurfl2python.py  wurfl.xml 
 
 # File too big to commit
-rm wurfl-latest.xml
+rm wurfl.xml
+rm wurfl-latest.zip
 
