@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.0
+------
+
+* Updated Wurfl db [miohtama]
+
 0.9.3
 -----
 
